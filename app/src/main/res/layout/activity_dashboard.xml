@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_column="3"
+    android:background="@color/silver"
+    android:scrollbars="vertical"
+    tools:context=".Dashboard">
+    <include layout="@layout/toolbar"/>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="30dp"
+        app:contentPaddingTop="10dp"
+        android:contextClickable="true"
+        app:cardBackgroundColor="@color/light_gray">
+
+        <TextView
+            android:id="@+id/bv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Verify me"
+            android:shadowColor="@color/dark_grey"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:textStyle="bold"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="30dp"
+        app:contentPaddingTop="10dp"
+        android:contextClickable="true"
+        app:cardBackgroundColor="@color/light_gray">
+
+        <TextView
+            android:id="@+id/check_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="check location"
+            android:shadowColor="@color/dark_grey"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:textStyle="bold"/>
+    </com.google.android.material.card.MaterialCardView>
+
+
+</LinearLayout>

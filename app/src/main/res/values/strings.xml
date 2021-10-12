@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ImagePro2</string>
+    <string name="title_activity_location">Map</string>
+    <string name="capture_frame">CAPTURE CURRENT FRAME</string>
+
+</resources>
